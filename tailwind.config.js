@@ -6,6 +6,9 @@ export default {
       spacing: {
         100: "100px",
       },
+       backgroundColor: {
+        '5760fd': '#5760fd',
+      },
     },
   },
   plugins: [],
