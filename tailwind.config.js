@@ -9,6 +9,7 @@ export default {
        backgroundColor: {
         '5760fd': '#5760fd',
       },
+       
     },
   },
   plugins: [],

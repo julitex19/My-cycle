@@ -21,7 +21,7 @@ function Managing() {
           <h1 className="w-[100%] lg:mt-28 mb-4 text-center lg:ml-28 lg:mr-28 tracking-wide text-white text-5xl font-semibold lg:w-[55%] lg:text-start lg:text-6xl">
             Manage your community
           </h1>
-          <p className="leading-6 tracking-wider font-light text-white text-center pl-3 pr-3 lg:w-[55%] text-[15px] lg:ml-28 lg:text-start ">
+          <p className="leading-6 tracking-wider font-light text-white text-center pl-3 pr-3 lg:w-[55%] text-[15px] lg:ml-28 lg:text-start">
             Bring your circle together for a common cause. Looking for a space
             to grow your followers and give them the best of you?
           </p>

@@ -13,7 +13,7 @@ function Features() {
   return (
     <>
       <div
-        className="lg:flex lg:items-center lg:justify-center bg-cover h-auto lg:h-[calc(100vh-96px)] mb-24 lg:ml-[100px] lg:mr-[100px]"
+        className="lg:flex lg:items-center lg:justify-center bg-cover h-auto lg:h-[calc(100vh-96px)] lg:ml-[100px] lg:mr-[100px]"
         style={featureDots}
       >
         <div className="w-full lg:w-1/2 p-4 lg:p-0">

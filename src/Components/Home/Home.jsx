@@ -1,8 +1,9 @@
 import { GoTriangleRight } from "react-icons/go";
 import Managing from "../Managing/Managing";
 import Mentorship from "../Mentorship/Mentorship";
+import Monetize from "../Monetize/Monetize";
 function Home() {
-  const homeLines = {
+  const homeDots = {
     backgroundImage: `url('/Assets/Shapes.svg')`,
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
@@ -11,7 +12,7 @@ function Home() {
     <>
       <div
         className="flex lg:justify-around items-center mb-60 lg:mb-10 mt-16 lg:mr-24 lg:ml-24 flex-col-reverse lg:flex-row"
-        style={homeLines}
+        style={homeDots}
       >
         <div>
           <div className="leading-relaxed tracking-wide text-zinc-800 text-5xl font-semibold ">
@@ -41,6 +42,7 @@ function Home() {
       </div>
       <Managing />
       <Mentorship />
+      <Monetize />
     </>
   );
 }

@@ -1,6 +1,6 @@
 function Pricing() {
   return (
-    <div>
+    <div> 
       <h1>this is pricing</h1>
     </div>
   );
