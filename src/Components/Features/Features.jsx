@@ -1,5 +1,7 @@
 import { GoTriangleRight } from "react-icons/go";
 import Box from "../Box/Box";
+import Circle from "../MyCircle/Circle";
+import FrequentlyAQ from "../FrequentlyAQ/FrequentltyAQ";
 
 function Features() {
   const featureDots = {
@@ -43,6 +45,8 @@ function Features() {
         </div>
       </div>
       <Box />
+      <Circle />
+      <FrequentlyAQ />
     </>
   );
 }

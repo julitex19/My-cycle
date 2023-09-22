@@ -1,8 +1,10 @@
-// import React from 'react';
+import React from 'react';
 
-function Foottop() {
+function Position() {
   return (
-    <div className="lg:h-40 bg-white absolute lg:-top-32 -top-52 shadow-lg rounded-2xl lg:left-40 lg:right-40 right-10 left-10 flex  items-center  flex-col-reverse lg:flex-row p-2 lg:pb-8 xl:flex-row">
+      <div className="lg:h-48 bg-white absolute lg:-bottom-[50px] -bottom-[150px] shadow-2xl rounded-2xl lg:left-40 lg:right-40 right-10 left-10 flex  items-center  flex-col-reverse lg:flex-row p-4 xl:flex-row ">
+          
+          
       <div className="lg:w-2/4 lg:ml-10 w-[100%] text-center ">
         <div className="lg:w-80 mt-4">
           <p className="leading-loose tracking-wide text-zinc-600 lg:text-lg text-sm lg:text-left">
@@ -54,4 +56,4 @@ function Foottop() {
   );
 }
 
-export default Foottop;
+export default Position;

@@ -38,7 +38,7 @@ function Mentorship() {
       </div>
       {/* section 2 */}
       <div className="">
-        <h1 className="text-center text-5xl pt-6 pb-3 lg:pt-8 pb-6 lg:text-5xl">
+        <h1 className="text-center text-5xl text-zinc-700 font-bold pt-6 pb-3 lg:pt-8 pb-6 lg:text-5xl">
           Engagements
         </h1>
 
@@ -104,8 +104,7 @@ function Mentorship() {
               </div>
             </div>
             <p className=" font-thin pt-3 pb-3">
-              You cannot be anything you want to be but you can be a whole lot
-              more of who you already are - <span>“ Tom Rath”</span>
+            What nearly stopped you from signing up today ?
             </p>
             <div className="flex gap-8">
               <div className="flex items-center gap-1 rounded bg-gray-100">

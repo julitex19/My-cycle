@@ -3,7 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 function Nav() {
   return (
     <nav className="bg-white shadow-sm p-6 flex justify-between px-100 items-center bg-white p-4 sticky top-0 z-50 px-8">
-      <p className="text-gray-500 hover:text-blue-500 text-md font-Spoof">
+      <p className="text-gray-500 hover:text-blue-500 text-md font-dancing font-extrabold">
         my cycle
       </p>
       <ul className="flex space-x-12 items-center hover:text-blue-500 hidden md:flex">

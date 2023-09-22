@@ -1,0 +1,10 @@
+.list {
+  list-style-image: url('../check.svg');
+  padding-left: 20px;
+}
+
+.list li{
+  color: rgb(65, 57, 57);
+  padding: 5px 0;
+  font-weight: 400;
+}

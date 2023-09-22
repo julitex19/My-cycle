@@ -15,7 +15,7 @@ function Monetize() {
   return (
     <>
       <div
-        className="mb-72 bg-5760fd "
+        className=" bg-5760fd "
         style={bgDots}
       >
         <div className="lg:flex lg:justify-around items-center lg:ml-[110px] lg:mr-[90px]">
@@ -24,7 +24,7 @@ function Monetize() {
               Monetize
             </h1>
 
-            <p className="leading-6 tracking-wider font-extralight text-white text-center pl-3 pr-3 lg:w-[65%] text-[15px] lg:text-start lg: pl-0 pr-0 ">
+            <p className="leading-6 tracking-wider font-extralight text-white text-center pl-3 pr-3 lg:w-[75%] text-[15px] lg:text-start lg: pl-0 pr-0 ">
               You can monetize your community, collect membership fees , sell
               courses and collect about any payment you want to collect.
             </p>
@@ -35,8 +35,8 @@ function Monetize() {
               </button>
             </div>
           </div>
-          <div className="flex sm:justify-center sm:gap-10 md:justify-evenly p-8 lg:justify-center">
-            <div>
+          <div className="md:flex sm:justify-center ml-28 mt-5 pl-4 sm:gap-10 md:justify-evenly p-16 lg:justify-center">
+            <div className="pb-16">
               <Java />
               <Marketing />
             </div>

@@ -2,6 +2,7 @@ import { GoTriangleRight } from "react-icons/go";
 import Managing from "../Managing/Managing";
 import Mentorship from "../Mentorship/Mentorship";
 import Monetize from "../Monetize/Monetize";
+import Interest from "../Interest/Interest";
 function Home() {
   const homeDots = {
     backgroundImage: `url('/Assets/Shapes.svg')`,
@@ -43,6 +44,7 @@ function Home() {
       <Managing />
       <Mentorship />
       <Monetize />
+      <Interest />
     </>
   );
 }

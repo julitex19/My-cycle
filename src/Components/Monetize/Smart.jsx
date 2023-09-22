@@ -7,7 +7,6 @@ function Marketing() {
     <div className="relative w-[260px] h-[240px] bg-5760fd flex justify-center mb-4">
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0"></div>
 
-      {/* Updated the inner div to remove padding */}
       <div className="relative z-10 w-[250px] h-[220px] bg-white rounded">
         <div>
           <img src="./Assets/smart.svg" alt="" className="w-[250px]" />
@@ -33,7 +32,7 @@ function Marketing() {
         </div>
       </div>
       <div className="absolute -top-4 -right-[10px]">
-        <img src="./Assets/smdot.svg" alt="" />
+        <img src="./Assets/smartdot.svg" alt="" />
       </div>
     </div>
   );
