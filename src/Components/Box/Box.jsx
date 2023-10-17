@@ -2,6 +2,58 @@ import React from "react";
 import { AiFillMessage } from "react-icons/ai";
 
 function Box() {
+  const content = [
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "AiFillMessage",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+    {
+      id: 1,
+      icon: "",
+      text:""
+    },
+  ]
   return (
     <>
       <div className="w-full mb-20 bg-white bg-[#FCFCFC] pt-12 pb-12 pl-28 lg:pl-0 tracking-wider">

@@ -30,7 +30,7 @@ function Monetize() {
             </p>
 
             <div className="flex justify-center lg:flex lg:justify-start">
-              <button className="bg-white text-indigo-600 py-4 px-10 rounded-xl hover:bg-blue-600 hover:text-white flex items-center mt-10 px-20 mb-5">
+              <button className="bg-white text-indigo-600 py-4 px-10 rounded-xl hover:bg-blue-600 hover:text-white hover:border flex items-center mt-10 px-20 mb-5">
                 Learn More
               </button>
             </div>

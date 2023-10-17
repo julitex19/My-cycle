@@ -2,7 +2,7 @@ import React from 'react';
 
 function Position() {
   return (
-      <div className="lg:h-48 bg-white absolute lg:-bottom-[50px] -bottom-[150px] shadow-2xl rounded-2xl lg:left-40 lg:right-40 right-10 left-10 flex  items-center  flex-col-reverse lg:flex-row p-4 xl:flex-row ">
+      <div className="lg:h-48 bg-white absolute lg:-bottom-[50px] -bottom-[150px]  shadow-2xl rounded-2xl lg:left-40 lg:right-40 right-10 left-10 flex  items-center  flex-col-reverse lg:flex-row p-4 xl:flex-row ">
           
           
       <div className="lg:w-2/4 lg:ml-10 w-[100%] text-center ">
