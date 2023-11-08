@@ -4,14 +4,14 @@ import styles from "./Pricing.module.css";
 function Annual() {
   return (
     <>
-      <div className="lg:flex lg:justify-center lg:gap-6">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center lg:flex lg:justify-center lg:gap-6">
         {/* this is free plan */}
-        <div className="w-[400px] h-[440px] shadow-xl mt-8 rounded-xl border-blue-600">
-          <div className="flex items-center pl-14 mt-6 mb-4 gap-4">
+        <div className="md:w-[400px]  w-[300px] h-[440px] shadow-xl mt-8 rounded-lg border-blue-600">
+          <div className="flex items-center justify-center mt-6 mb-4 gap-4">
             <img src="./Assets/fan.svg" alt="" />
 
             <div className="flex gap-2 flex-col">
-              <h1 className="text-xl text-zinc-800">Free Plan</h1>
+              <h1 className="text-xl text-zinc-800 font-bold">Free Plan</h1>
               <p className="text-indigo-600 text-[14px]">
                 Enjoy 14 days Free trial plan
               </p>
@@ -27,18 +27,20 @@ function Annual() {
               <li>Landing page</li>
             </ul>
           </div>
-          <button className="bg-indigo-600 py-5 px-28 list-disc text-white text-md rounded-2xl ml-8 mr-5 mb-12 mt-4">
-            Start Trial Plan
-          </button>
+          <div className="flex flex-col items-center justify-center">
+            <button className="bg-indigo-600 flex flex-col items-center justify-center lg:py-5 py-2 px-6 lg:px-28 text text-white text-md rounded-lg  mb-12 mt-4">
+              Start Basic Plan
+            </button>
+          </div>
         </div>
         {/* this si monthly plan */}
 
-        <div className="w-[420px] shadow-xl mt-8 rounded-xl">
-          <div className="flex items-center pl-14 mt-6 mb-4 gap-4">
+        <div className="md:w-[400px]  w-[300px] shadow-xl mt-8 rounded-lg">
+          <div className="flex items-center justify-center mt-6 mb-4 gap-4">
             <img src="./Assets/fan.svg" alt="" />
 
             <div className="flex gap-2 flex-col">
-              <h1 className="text-xl text-zinc-800">Free Plan</h1>
+              <h1 className="text-xl text-zinc-800 font-bold">Perfect Plan</h1>
               <p className="text-indigo-600 text-[16px] font-bold">1,160$</p>
             </div>
           </div>
@@ -57,18 +59,20 @@ function Annual() {
               <li> Wed / Desktop and Mobile Platform</li>
             </ul>
           </div>
-          <button className="bg-indigo-600 py-5 px-28 list-disc text-white text-md rounded-2xl ml-8 mr-5 mb-12 mt-4">
-            Start perfect Plan
-          </button>
+          <div className="flex flex-col items-center justify-center">
+            <button className="bg-indigo-600 flex flex-col items-center justify-center lg:py-5 py-2 px-6 lg:px-28 text text-white text-md rounded-lg  mb-12 mt-4">
+              Start Basic Plan
+            </button>
+          </div>
         </div>
         {/* this is annual plan */}
 
-        <div className="w-[420px] h-[550px] shadow-xl mt-8 rounded-xl ">
-          <div className="flex items-center pl-14 mt-6 mb-4 gap-4">
+        <div className="md:w-[400px]  w-[300px] h-[550px] shadow-xl mt-8 rounded-lg ">
+          <div className="flex items-center  justify-center mt-6 mb-4 gap-4">
             <img src="./Assets/fan.svg" alt="" />
 
             <div className="flex gap-2 flex-col">
-              <h1 className="text-xl text-zinc-800">Free Plan</h1>
+              <h1 className="text-xl text-zinc-800 font-bold">Basic Plan</h1>
               <p className="text-indigo-600 text-[16px] font-bold">400$</p>
             </div>
           </div>
@@ -85,9 +89,11 @@ function Annual() {
               <li> Membership Rewards</li>
             </ul>
           </div>
-          <button className="bg-indigo-600 py-5 px-28 list-disc text-white text-md rounded-2xl ml-8 mr-5 mb-12 mt-4">
-            Start Basic Plan
-          </button>
+          <div className="flex flex-col items-center justify-center">
+            <button className="bg-indigo-600 flex flex-col items-center justify-center lg:py-5 py-2 px-6 lg:px-28 text text-white text-md rounded-lg  mb-12 mt-4">
+              Start Basic Plan
+            </button>
+          </div>
         </div>
       </div>
     </>

@@ -11,7 +11,7 @@ function Marketing() {
       
       <div className="relative z-10 w-[250px] h-[220px] bg-white rounded">
         <div>
-          <img src="./Assets/settings.svg" alt="" className="w-[250px]" />
+          <img src="./Assets/settings.svg" alt="" className="w-[250px] rounded-t" />
         </div>
 
         <p className="leading-6 tracking-wide text-sm w-[70%] p-2">

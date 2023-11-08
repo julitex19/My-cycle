@@ -4,12 +4,12 @@ import { AiOutlineClockCircle } from "react-icons/ai";
 
 function Technics() {
   return (
-  <div className="w-[240px] h-[220px] bg-white mb-4 rounded ml-3">
+  <div className="w-[247px] h-[220px] bg-white mb-4 rounded ml-3">
   <div>
-    <img src="./Assets/lights.svg" alt="" className="w-[250px]" />
+    <img src="./Assets/lights.svg" alt="" className="w-[250px] rounded-t" />
   </div>
-  <p className="leading-6 tracking-wide text-sm w-[80%] pl-2">
-    The 12 principles of Java Development
+  <p className="leading-6 tracking-wide text-sm pb-4 w-[80%] pl-2">
+  AI technics for business growth and development
   </p>
 
   <div className="flex items-center gap-4 pt-2 ">

@@ -51,13 +51,13 @@ function VerifyMail() {
         </div>
       </div>
 
-      <div className=" bg-white mt-12 rounded-lg shadow-xl lg:w-[550px] mb-4">
+      <div className=" bg-white mt-12 rounded-lg shadow-xl  mx-auto lg:mx-0 mb-4">
         <h1 className="text-center text-2xl text-indigo-600 lg:text-zinc-800 font-semibold pt-10 lg:pt-10">
           Verify Email Address
         </h1>
-        <p className="text-zinc-600 text-[14px] mt-4 mb-2 w-[80%] ml-20 font-light">
+        <p className="text-zinc-600 text-center text-[14px] mt-4 mb-2 lg:w-[80%] md:px-0 lg:ml-20 font-light">
           To verify email,we’ve sent a one time password (OTP) to
-          darkkyweb@gmail.com
+         your e-mail address
         </p>
         <div className="flex flex-col items-center mt-12 ">
           <div className="mb-4">
@@ -72,12 +72,12 @@ function VerifyMail() {
               id="text"
               name="text"
               placeholder="Input OTP"
-              className="w-[400px]  pt-3 pb-3 pl-6 border rounded focus:outline-none focus:ring font-extralight focus:border-blue-300"
+              className="lg:w-[400px] md:w-[350px] w-[300px] pt-3 pb-3 pl-6 border rounded focus:outline-none focus:ring font-extralight focus:border-blue-300"
               required
             />
           </div>
 
-          <button className="px-32 py-4 border border-gray-200 text-white text-lg bg-blue-600 hover:bg-blue-800 rounded-lg mb-8 mt-8 flex items-center gap-2 w-[400px]">
+          <button className="md:px-32 px-8 justify-center lg:py-4 py-2 border border-gray-200 text-white text-lg bg-blue-600 hover:bg-blue-800 rounded-lg mb-8 mt-8 flex items-center gap-1 ">
            Confirm Email
           </button>
 

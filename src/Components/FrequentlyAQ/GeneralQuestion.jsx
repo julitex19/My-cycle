@@ -2,7 +2,7 @@ import React from 'react'
 
 function GeneralQuestion() {
   return (
-    <div>
+    <div className='mb-96'>
       
     </div>
   )

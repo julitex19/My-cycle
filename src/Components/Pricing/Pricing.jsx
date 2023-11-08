@@ -14,7 +14,7 @@ function Pricing() {
     <>
       <div className="mb-60" style={Dots}>
         <div>
-          <h1 className="text-center text-5xl text-zinc-800 font-bold pt-6 lg:pt-8 pb-6 pl-3 pr-3">
+          <h1 className="text-center text-3xl md:text-5xl text-zinc-800 font-bold pt-6 lg:pt-8 pb-6 px-3">
             Find your community Plan?
           </h1>
 
@@ -25,19 +25,19 @@ function Pricing() {
         </div>
         <div className="flex justify-center ">
           <button
-            className={`${ activetab === "Monthly" ? "bg-blue-600 text-white" : "bg-white" } py-5 px-14 text-indigo-600 text-lg rounded-l-full transition-all duration-1000`}
+            className={`${ activetab === "Monthly" ? "bg-blue-600 text-white" : "bg-white" } lg:py-5 py-3 lg:px-14 px-10 text-indigo-600 text-lg rounded-l-full transition-all duration-1000`}
             onClick={() => setActiveTab("Monthly")}
           >
             Monthly
           </button>
           <button
-            className= {`${ activetab === "Annual" ? "bg-blue-600 text-white" : "bg-white"  } bg-blue-600 py-5 px-14 text-indigo-600 text-lg rounded-r-full transition-all duration-1000`}
+            className= {`${ activetab === "Annual" ? "bg-blue-600 text-white" : "bg-white"  } bg-blue-600 lg:py-5 py-3 lg:px-14 px-10 text-indigo-600 text-lg rounded-r-full transition-all duration-1000`}
             onClick={() => setActiveTab("Annual")}
           >
             Annual
           </button>
         </div>
-        <div className="p-24">
+        <div className="lg:p-24">
           {activetab === "Monthly" && <Monthly />}
           {activetab === "Annual" && <Annual />}
         </div>

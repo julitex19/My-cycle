@@ -31,11 +31,11 @@ const answers = [
 
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container p-4">
       {questions.map((question, index) => (
         <div className="accordion" key={index}>
           <div
-            className="flex items-center justify-between cursor-pointer border-b text-[#5151FF] p-2 lg:w-[800px] lg:ml-60"
+            className="flex items-center justify-between cursor-pointer border-b text-[#5151FF] p-2 xl:w-[800px] xl:ml-60"
             onClick={() => toggleAccordion(index)}
           >
             <div className="flex items-center">
@@ -47,7 +47,7 @@ const answers = [
             {isOpen[index] ? <FaMinusSquare  className="text-xl"/> : <FaPlusSquare  className="text-xl"/>}
           </div>
           {isOpen[index] && (
-            <p className="accordion-answer mt-2 text-[9px] font-light ml-6 w-[450px] lg:w-[640px] lg:ml-72 lg:pb-4 lg:text-[12px]">
+            <p className="accordion-answer mt-2 text-[9px] font-light ml-6 lg:w-[640px] lg:ml-72 lg:pb-4 lg:text-[12px]">
               {answers[index]}
             </p>
           )}

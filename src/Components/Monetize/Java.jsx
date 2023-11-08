@@ -6,7 +6,7 @@ function Java() {
   return (
     <div className="w-[250px] h-[220px] bg-white mb-8 ml-3 rounded">
       <div>
-        <img src="./Assets/java.svg" alt=""  className="w-[250px]"/>
+        <img src="./Assets/java.svg" alt=""  className="w-[250px] rounded-t"/>
       </div>
         <p className="leading-6 tracking-wide text-sm w-[80%] pl-2">The 12 principles of Java Development</p>
           

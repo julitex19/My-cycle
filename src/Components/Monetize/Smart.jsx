@@ -9,10 +9,10 @@ function Marketing() {
 
       <div className="relative z-10 w-[250px] h-[220px] bg-white rounded">
         <div>
-          <img src="./Assets/smart.svg" alt="" className="w-[250px]" />
+          <img src="./Assets/smart.svg" alt="" className="w-[250px] rounded-t" />
         </div>
 
-        <p className="leading-6 tracking-wide text-sm w-[70%] p-2">
+        <p className="leading-6 tracking-wide pb-4 text-sm w-[70%] p-2">
           Smart Business goals
         </p>
 

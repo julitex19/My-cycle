@@ -15,7 +15,7 @@ function Footer() {
 
   return (
     <footer
-      className="min-h-[400px] pl-5 md:pl-10 lg:pl-20 pr-5 md:pr-10 lg:pr-20 bg-5760fd"
+      className=" pl-5 md:pl-10 lg:pl-20 pr-5 md:pr-10 lg:pr-20 bg-5760fd"
       style={footerStyle}
     >
          <div>
@@ -23,7 +23,7 @@ function Footer() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-around ">
-        <div className="mt-20 md:mt-20 sm:mt-24">
+        <div className="mt-16 md:mt-20 sm:mt-24">
           <h2 className="text-white font-bold mb-2 md:mb-4 text-base md:text-xl">
             Product
           </h2>

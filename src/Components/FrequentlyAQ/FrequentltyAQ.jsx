@@ -5,15 +5,15 @@ import Testing from "../testing/testing";
 
 function FrequentlyAQ() {
   return (
-    <div className="mb-80 mt-40 lg:mt-0 bg-[#FCFCFC]">
+    <div className="mb-60 mt-28 lg:mt-0 bg-[#FCFCFC] w-11/12">
       <div>
-        <h2 className="text-zinc-700 text-center tracking-wider font-semibold pt-6 pb-3 lg:pt-8 pb-6 lg:text-2xl">
+        <h2 className="text-zinc-700 text-center tracking-wider font-semibold pt-6 lg:pt-8 pb-6 lg:text-2xl">
           Frequently Asked Questions
         </h2>
         <ul className="flex justify-center gap-10 tracking-wide">
           <li>
             <Link
-              to="/GeneralQuestion"
+              to="/"
               className="text-zinc-700 hover:underline hover:text-gray-500 font-light"
             >
               General Questions
@@ -21,15 +21,7 @@ function FrequentlyAQ() {
           </li>
           <li>
             <Link
-              to="/Features2"
-              className="text-zinc-700 hover:underline hover:text-gray-500 font-light"
-            >
-              Features
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/PricingPlan"
+              to="/pricing"
               className="text-zinc-700 hover:underline hover:text-gray-500 font-light"
             >
               Pricing & plan

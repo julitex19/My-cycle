@@ -47,7 +47,7 @@ function Login() {
           </div>
         </div>
         {/* hidden in large screen */}
-        <div className="flex items-center gap-4 mt-56 hidden lg:flex">
+        <div className="items-center gap-4 mt-56 hidden lg:flex">
           <p className="text-zinc-400  mt-2 text-[12px] ">&copy; logo</p>
           <p className="text-zinc-400  mt-2 text-[12px] ">privacy & terms</p>
           <p className="text-zinc-400  mt-2 text-[12px] ">Contact Us</p>
@@ -56,7 +56,7 @@ function Login() {
 
       <div className=" bg-white mt-12 rounded-lg shadow-xl lg:w-[550px] lg:mb-10">
         <h1 className="text-center text-3xl text-indigo-600 lg:text-zinc-800 font-semibold pt-10 lg:pt-10">
-          Sign Up
+          Sign-Up
         </h1>
         <div className="flex flex-col items-center mt-12 ">
           <Link to="/SignUp">
@@ -69,7 +69,7 @@ function Login() {
             OR
           </div>
 
-          <button className="px-24 py-4 border border-gray-200 rounded-md mb-2 flex items-center gap-2 w-[400px] mb-8 text-blue-400">
+          <button className="px-24 py-4 border border-gray-200 rounded-md flex items-center gap-2 w-[400px] mb-8 text-blue-400">
             <FcGoogle /> Continue with Google
           </button>
           <button className="px-24 py-4 border border-gray-200 rounded-md flex items-center gap-2 w-[400px] mb-8 text-blue-800">

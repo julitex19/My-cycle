@@ -1,17 +1,17 @@
 import React from "react";
 import styles from "./Pricing.module.css";
 
-function Monthly() {
+function Annual() {
   return (
     <>
-      <div className="lg:flex lg:justify-center lg:gap-6">
-          {/* this is free plan */}
-        <div className="w-[400px] h-[440px] shadow-lg mt-8 rounded-xl border-blue-600">
-          <div className="flex items-center pl-14 mt-6 mb-4 gap-4">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-center lg:gap-6">
+        {/* this is free plan */}
+        <div className="md:w-[400px] w-[300px] lg:h-[440px] lg: shadow-xl mt-8 rounded-lg border-blue-600">
+          <div className="flex items-center justify-center mt-6 mb-4 gap-4">
             <img src="./Assets/fan.svg" alt="" />
 
             <div className="flex gap-2 flex-col">
-              <h1 className="text-xl text-zinc-800">Free Plan</h1>
+              <h1 className="text-xl text-zinc-800 font-bold">Free Plan</h1>
               <p className="text-indigo-600 text-[14px]">
                 Enjoy 14 days Free trial plan
               </p>
@@ -27,18 +27,21 @@ function Monthly() {
               <li>Landing page</li>
             </ul>
           </div>
-          <button className="bg-indigo-600 py-5 px-28 list-disc text-white text-md rounded-2xl ml-8 mr-5 mb-12 mt-4">
-            Start Trial Plan
-          </button>
+          <div className="flex flex-col items-center justify-center">
+            <button className="bg-indigo-600 flex flex-col items-center justify-center lg:px-14 xl:py-4 lg:py-3 py-2 px-6 xl:px-28 text text-white text-md rounded-lg  mb-12 mt-4">
+              Start Basic Plan
+            </button>
+          </div>
         </div>
         {/* this si monthly plan */}
-        <div className="w-[420px] shadow-xl mt-8 rounded-xl">
-          <div className="flex items-center pl-14 mt-6 mb-4 gap-4">
+
+        <div className="md:w-[400px] w-[300px] shadow-xl mt-8 rounded-lg">
+          <div className="flex items-center justify-center mt-6 mb-4 gap-4">
             <img src="./Assets/fan.svg" alt="" />
 
             <div className="flex gap-2 flex-col">
-              <h1 className="text-xl text-zinc-800">Free Plan</h1>
-              <p className="text-indigo-600 text-[16px] font-bold">98$</p>
+              <h1 className="text-xl text-zinc-800 font-bold">Perfect Plan</h1>
+              <p className="text-indigo-600 text-[16px] font-bold">98$ <span className="text-gray-300 font-light text-[12px]">/month</span></p>
             </div>
           </div>
           <hr className="border-t border-gray-100 my-4 mx-6" />
@@ -56,18 +59,22 @@ function Monthly() {
               <li> Wed / Desktop and Mobile Platform</li>
             </ul>
           </div>
-          <button className="bg-indigo-600 py-5 px-28 list-disc text-white text-md rounded-2xl ml-8 mr-5 mb-12 mt-4">
-            Start perfect Plan
-          </button>
+          <div className="flex flex-col items-center justify-center">
+            <button className="bg-indigo-600 flex flex-col items-center justify-center lg:px-14 xl:py-4 py-3 px-6 xl:px-28 text text-white text-md rounded-lg  mb-12 mt-4">
+              Start Basic Plan
+            </button>
+          </div>
         </div>
         {/* this is annual plan */}
-        <div className="w-[420px] h-[550px] shadow-xl mt-8 rounded-xl ">
-          <div className="flex items-center pl-14 mt-6 mb-4 gap-4">
+
+        <div className="md:w-[400px] w-[300px] h-[550px] shadow-xl mt-8 rounded-lg ">
+          <div className="flex items-center  justify-center mt-6 mb-4 gap-4">
             <img src="./Assets/fan.svg" alt="" />
 
             <div className="flex gap-2 flex-col">
-              <h1 className="text-xl text-zinc-800">Free Plan</h1>
-              <p className="text-indigo-600 text-[16px] font-bold">34$</p>
+              <h1 className="text-xl text-zinc-800 font-bold">Basic Plan</h1>
+              <span className="text-indigo-600 text-[16px] font-bold">34$ <span className="text-gray-300 font-light text-[12px]">/month</span></span>
+              
             </div>
           </div>
           <hr className="border-t border-gray-100 my-4 mx-6" />
@@ -83,13 +90,15 @@ function Monthly() {
               <li> Membership Rewards</li>
             </ul>
           </div>
-          <button className="bg-indigo-600 py-5 px-28 list-disc text-white text-md rounded-2xl ml-8 mr-5 mb-12 mt-4">
-            Start Basic Plan
-          </button>
+          <div className="flex flex-col items-center justify-center">
+            <button className="bg-indigo-600 flex flex-col items-center justify-center xl:py-4 lg:py-3 lg:px-14 py-2 px-6 xl:px-28 text text-white text-md rounded-lg  mb-12 mt-4">
+              Start Basic Plan
+            </button>
+          </div>
         </div>
       </div>
     </>
   );
 }
 
-export default Monthly;
+export default Annual;

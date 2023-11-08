@@ -12,7 +12,7 @@ function Interest() {
     <>
       <div className="mb-72 bg-zinc-100" style={intDots}>
         <div>
-          <h1 className="text-center text-5xl text-zinc-700 font-bold pt-6 pb-3 lg:pt-8 pb-6 lg:text-5xl lg:w-[50%] lg:ml-96">
+          <h1 className="text-center text-3xl md:text-5xl text-zinc-700 font-semibold pt-6 lg:pt-8 pb-6 lg:text-4xl xl:px-80 lg:px-40">
             Have you got differing interests in your community?
           </h1>
 
@@ -24,7 +24,7 @@ function Interest() {
         <div className="flex flex-wrap justify-center gap-4 p-6">
           <div className="w-[250px] h-[220px] bg-white mb-8 ml-3 rounded text-center">
             <div className="flex items-center gap-3 ml-12">
-              <div>
+              <div className="mb-4">
                 <img src="./Assets/creative.svg" alt="" className="w-[150px]" />
               </div>
               <div className="w-7 h-7 rounded-full bg-stone-400 flex items-center justify-center">
@@ -43,7 +43,7 @@ function Interest() {
           <div className="w-[250px] h-[220px] bg-white mb-8 ml-3 rounded text-center">
            
               <div>
-                <img src="./Assets/tinypeople.svg" alt="" className="w-[250px]" />
+                <img src="./Assets/tinypeople.svg" alt="" className="w-[250px] rounded-t" />
               </div>
             
            
@@ -58,7 +58,7 @@ function Interest() {
 
           <div className="w-[250px] h-[220px] bg-white mb-8 ml-3 rounded text-center">
             <div className="flex items-center gap-8 ml-20">
-              <div>
+              <div className="mb-6">
                 <img src="./Assets/image9.svg" alt="" className="w-[50px]" />
               </div>
               <div className="w-7 h-7 rounded-full bg-stone-400 flex items-center justify-center">
@@ -75,8 +75,8 @@ function Interest() {
           </div>
 
           <div className="w-[250px] h-[220px] bg-white mb-8 ml-3 rounded text-center">
-              <div>
-                <img src="./Assets/image8.svg" alt="" className="w-[250px]" />
+              <div className="">
+                <img src="./Assets/image8.svg" alt="" className="w-[250px] rounded-t" />
               </div>
             <p className="leading-6 tracking-wide text-sm">Creative Brief</p>
             <p className="text-zinc-400 text-[10px] font-extralight mt-2 mb-2">

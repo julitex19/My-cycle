@@ -14,15 +14,15 @@ function Mentorship() {
       style={mentorDots}
     >
       <div className="lg:flex lg:justify-evenly lg:items-center lg:gap-[150px]">
-        <div className="">
+        <div className="md:flex justify-center p-4">
           <img src="./Assets/group1.svg" alt="" />
         </div>
-        <div className="lg:w-[50%]">
+        <div className="lg:w-[75%] xl:w-1/2">
           <h1 className=" mb-4 text-center tracking-wide text-5xl font-semibold lg:text-start">
             Mentorship
           </h1>
 
-          <p className="leading-6 tracking-wider font-light text-center pl-3 pr-3 text-[15px] lg:text-start lg:pt-4">
+          <p className="leading-6 tracking-wider font-light md:px-20 lg:px-0 text-center pl-3 pr-3 text-[15px] lg:text-start lg:pt-4">
             Running a mentorship program and looking for tools to manage the
             process? Mycircle allows you to add on mentees and mentors, schedule
             calls, take notes, goals, check off the goals and track your mentee
@@ -30,7 +30,7 @@ function Mentorship() {
           </p>
 
           <div className="flex justify-center lg:flex lg:justify-start">
-            <button className="bg-indigo-600 text-white py-4 px-8 rounded-xl hover:bg-blue-600 hover:text-white flex items-center mt-10 px-20 mb-12">
+            <button className="bg-indigo-600 text-white py-3 px-8 rounded-xl hover:bg-blue-600 hover:text-white flex items-center mt-10 mb-12">
               Get Started
             </button>
           </div>
@@ -38,7 +38,7 @@ function Mentorship() {
       </div>
       {/* section 2 */}
       <div className="">
-        <h1 className="text-center text-5xl text-zinc-700 font-bold pt-6 pb-3 lg:pt-8 pb-6 lg:text-5xl">
+        <h1 className="text-center text-5xl text-zinc-700 font-bold pt-6 lg:pt-8 pb-6 lg:text-5xl">
           Engagements
         </h1>
 
@@ -46,8 +46,8 @@ function Mentorship() {
           Use our topics feature to engage your community on topics that matter
           to you.
         </p>
-        <div className="lg:flex lg:mt-10">
-          <div className="container shadow-xl w-[520px]  bg-white p-8 rounded-xl mx-auto">
+        <div className="lg:flex gap-10 lg:mt-10 px-2">
+          <div className="container shadow-xl bg-white p-8 rounded-xl mx-auto">
             <div className="flex items-center gap-3">
               <div>
                 <img
@@ -85,7 +85,7 @@ function Mentorship() {
             </div>
           </div>
 
-          <div className="container shadow-xl w-[520px]  bg-white p-8 rounded-xl mx-auto mt-8">
+          <div className="container shadow-xl bg-white p-8 rounded-xl mx-auto mt-8">
             <div className="flex items-center gap-3">
               <div>
                 <img
@@ -106,7 +106,7 @@ function Mentorship() {
             <p className=" font-thin pt-3 pb-3">
             What nearly stopped you from signing up today ?
             </p>
-            <div className="flex gap-8">
+            <div className="flex gap-5">
               <div className="flex items-center gap-1 rounded bg-gray-100">
                 <img src="./Assets/Heart.svg" alt="" />
                 <p className="text-[10px]">96</p>
@@ -122,6 +122,7 @@ function Mentorship() {
               <p className="text-[12px] italic text-indigo-600 pt-1">9 comments</p>
             </div>
           </div>
+
         </div>
       </div>
     </div>
